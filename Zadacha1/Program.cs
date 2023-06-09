@@ -10,9 +10,9 @@
 
 
 Console.Write("Введите первое число: ");
-string A = Console.ReadLine();
-Console.Write("Введите первое число: ");
-string B = Console.ReadLine(); 
+string A = Console.ReadLine()!;
+Console.Write("Введите второе число: ");
+string B = Console.ReadLine()!; 
 int Aint = Convert.ToInt32(A);
 int Bint = Convert.ToInt32(B);
 
