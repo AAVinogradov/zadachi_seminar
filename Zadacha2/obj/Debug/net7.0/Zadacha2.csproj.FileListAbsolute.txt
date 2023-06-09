@@ -1,0 +1,15 @@
+G:\Git\C#\Zadacha2\bin\Debug\net7.0\Zadacha2.exe
+G:\Git\C#\Zadacha2\bin\Debug\net7.0\Zadacha2.deps.json
+G:\Git\C#\Zadacha2\bin\Debug\net7.0\Zadacha2.runtimeconfig.json
+G:\Git\C#\Zadacha2\bin\Debug\net7.0\Zadacha2.dll
+G:\Git\C#\Zadacha2\bin\Debug\net7.0\Zadacha2.pdb
+G:\Git\C#\Zadacha2\obj\Debug\net7.0\Zadacha2.csproj.AssemblyReference.cache
+G:\Git\C#\Zadacha2\obj\Debug\net7.0\Zadacha2.GeneratedMSBuildEditorConfig.editorconfig
+G:\Git\C#\Zadacha2\obj\Debug\net7.0\Zadacha2.AssemblyInfoInputs.cache
+G:\Git\C#\Zadacha2\obj\Debug\net7.0\Zadacha2.AssemblyInfo.cs
+G:\Git\C#\Zadacha2\obj\Debug\net7.0\Zadacha2.csproj.CoreCompileInputs.cache
+G:\Git\C#\Zadacha2\obj\Debug\net7.0\Zadacha2.dll
+G:\Git\C#\Zadacha2\obj\Debug\net7.0\refint\Zadacha2.dll
+G:\Git\C#\Zadacha2\obj\Debug\net7.0\Zadacha2.pdb
+G:\Git\C#\Zadacha2\obj\Debug\net7.0\Zadacha2.genruntimeconfig.cache
+G:\Git\C#\Zadacha2\obj\Debug\net7.0\ref\Zadacha2.dll
