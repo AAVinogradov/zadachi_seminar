@@ -9,9 +9,9 @@
 // 5 -> Пятница
 
 
-Console.Write("Введите первое число: ");
+Console.WriteLine("Введите первое число: ");
 string A = Console.ReadLine()!;
-Console.Write("Введите второе число: ");
+Console.WriteLine("Введите второе число: ");
 string B = Console.ReadLine()!; 
 int Aint = Convert.ToInt32(A);
 int Bint = Convert.ToInt32(B);
