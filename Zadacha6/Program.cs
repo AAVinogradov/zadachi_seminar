@@ -4,12 +4,13 @@
 // 34, 5 -> не кратно, остаток 4 
 // 16, 4 -> кратно
 
-
+Console.WriteLine("Введите первое число");
 int numberA = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число");
 int numberB = Convert.ToInt32(Console.ReadLine());
 int numberC = numberA % numberB;
 Console.WriteLine(numberC);
-if (numberB !=0)
+if (numberB != 0)
 {
     Console.WriteLine(numberC);
 }
