@@ -3,7 +3,7 @@
 // 8 -> 2, 4, 6, 8
 
 
-Console.Write("Введите первое число: ");
+Console.Write("Введите число: ");
 int N = Convert.ToInt32(Console.ReadLine());
 for (int i = 2; i <= N; i+=2)
 {
