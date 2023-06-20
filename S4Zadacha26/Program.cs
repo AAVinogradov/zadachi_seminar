@@ -12,8 +12,8 @@ int ReadInt()
 }
 int func(int number)
 {
-    int colvo = 0;
-    while (number > 0)
+    int colvo = 1;
+    while (number >= 10)
     {
         number = number / 10;
         colvo++;
