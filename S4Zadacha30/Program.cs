@@ -7,7 +7,6 @@
 // int value = array[0];
 // array[0] = value;
 
-int number = 8;
 int[] array = new int[6]; // после new выделяется размер под массив - выделение памяти. 
 
 for (int i = 0; i < array.Length; i++)
