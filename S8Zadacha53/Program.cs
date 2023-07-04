@@ -36,7 +36,7 @@ void SwapFirstAndLastRows(int[,] array)
     {
         int temp = array[0, j]; // временная переменная 
             array[0, j] = array[rowCount - 1, j];
-            array[rowCount - 1, j] = temp;
+            array[rowCount - 1, j] = temp; // замена строк. -1 от общего количества строк
     }
 }
 // метод Замена строк 
