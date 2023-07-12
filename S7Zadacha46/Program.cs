@@ -27,9 +27,10 @@ void PrintMatrix(int[,] matrix)
         {
             Console.Write($"{matrix[i, j]} ");
         }
+        Console.WriteLine();
     }
 
 }
 int[,]myMatrix = GetRandomMatrix(rows, columns);
-Console.WriteLine(string.Join(", ", myMatrix));
+// Console.WriteLine(string.Join(", ", myMatrix)); // с двумерными массивами данная команда не нработает
 PrintMatrix(myMatrix);
