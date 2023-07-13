@@ -4,3 +4,33 @@
 // 1 2 3 4
 // 2 3 4 5
 
+const int rows = 3;
+const int columns = 4;
+int[,] GetRandomMatrix(int rows, int columns)
+{
+    int[,] matrix = new int[rows, columns];
+    
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+            matrix[i, j] = Random.Shared.Next(1, 10);
+        }
+    }
+    return matrix;
+}
+void PrintMatrix(int[,] matrix)
+{
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+            Console.Write($"{matrix[i, j]} ");
+        }
+        Console.WriteLine();
+    }
+
+}
+int[,]myMatrix = GetRandomMatrix(rows, columns);
+// Console.WriteLine(string.Join(", ", myMatrix)); // с двумерными массивами данная команда не нработает
+PrintMatrix(myMatrix);
