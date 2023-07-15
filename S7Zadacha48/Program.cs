@@ -6,6 +6,7 @@
 
 const int rows = 3;
 const int columns = 4;
+Console.WriteLine("Сгенерированный массив: ");
 int[,] GetRandomMatrix(int rows, int columns)
 {
     int[,] matrix = new int[rows, columns];
@@ -15,7 +16,10 @@ int[,] GetRandomMatrix(int rows, int columns)
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
             matrix[i, j] = Random.Shared.Next(1, 10);
+            
+            Console.Write($"{matrix[i, j]} \t");
         }
+         Console.WriteLine();
     }
     return matrix;
 }
@@ -25,12 +29,15 @@ void PrintMatrix(int[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            Console.Write($"{matrix[i, j]} ");
+            matrix[i, j] = + i + j;
+            Console.Write($"{matrix[i, j]} \t");
         }
         Console.WriteLine();
     }
 
 }
+
 int[,]myMatrix = GetRandomMatrix(rows, columns);
 // Console.WriteLine(string.Join(", ", myMatrix)); // с двумерными массивами данная команда не нработает
+Console.WriteLine("Массив по формулев:");
 PrintMatrix(myMatrix);
