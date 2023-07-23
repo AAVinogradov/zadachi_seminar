@@ -30,5 +30,5 @@ if (m == n)
 
     int sumNaturalNumbers = NaturalNumbers(m, n);
     Console.WriteLine($"Сумма чисел в промежутке от {m} до {n} = {sumNaturalNumbers}");
-}
+    }
 }
