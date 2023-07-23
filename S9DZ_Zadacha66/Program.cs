@@ -15,14 +15,20 @@ if (m > n)
 
 else
 {
-
-int NaturalNumbers(int numberM, int numberN)
+if (m == n)
 {
-    if (numberM > numberN) return 0;
-    return numberM + NaturalNumbers(numberM + 1, numberN);
+    Console.WriteLine("Задан промкжуток в одну цифру "); 
 }
+
+    {
+    int NaturalNumbers(int numberM, int numberN)
+    {
+        if (numberM >= numberN) return numberM;
+        return numberM + NaturalNumbers(numberM + 1, numberN);
+    }
     
 
-// NaturalNumbers(m, n);
-Console.WriteLine(NaturalNumbers(m, n));
+    int sumNaturalNumbers = NaturalNumbers(m, n);
+    Console.WriteLine($"Сумма чисел в промежутке от {m} до {n} = {sumNaturalNumbers}");
+}
 }
